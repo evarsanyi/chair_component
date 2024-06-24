@@ -5,6 +5,17 @@ These recliners use 30V power supplies, the circuit is an ESP32, a buck converto
 
 # Sample config
 
+To get from git:
+
+```
+external_components:
+  - source:
+      type: git
+      url: https://github.com/evarsanyi/chair_component.git
+      ref: main
+    components: [ chair ]
+```
+
 The virtual buttons on the chair platform allow remote control.
 
 ```
